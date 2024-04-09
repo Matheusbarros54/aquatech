@@ -20,11 +20,12 @@ body {
     align-items: center;
 }
 
-.navbar a{
+.navbar a {
     color: #e3b062;
     text-decoration: none;
 
 }
+
 .navbar a:hover {
     color: #32b9cd;
 }
@@ -96,11 +97,57 @@ body {
 /* FOOTER */
 
 .footer {
-background-color: #32b9cd;
-color: white;
+    background-color: #32b9cd;
+    color: white;
 }
 
 .footer .container {
     justify-content: center;
     align-items: center;
+}
+
+
+
+/* CADASTRO */
+
+.cadastro {
+    width: 35%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    height: 90%;
+    background-color: #E5E5E5;
+}
+
+.titulo_cadastro {
+    font-size: 24px;
+    color: #DB7093;
+}
+
+input {
+    text-align: center;
+    border: solid 3px #32b9cd;
+    border-radius: 9px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 40%;
+    height: 35px;
+    font-size: 17px;
+    background-color: #E6005A;
+    border-radius: 6px;
+    color: white;
+    border: none;
+}
+
+span {
+    font-size: 13.7px;
+    color: #DB7093;
+    font-weight: 700;
+
 }
